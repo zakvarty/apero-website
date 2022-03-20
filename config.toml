@@ -1,4 +1,4 @@
-baseURL = "www.zakvarty.com/"
+baseURL = "https://apero.zakvarty.com"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Zak Varty"
