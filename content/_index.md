@@ -2,9 +2,8 @@
 action_label: Read More &rarr;
 action_link: /about
 action_type: text
-description: "I am statistician and teaching fellow at Imperial College London. 
-  I am interested in the development, application and teaching of statistical methods, particularly those that that involve environmental or industrial processes. 
-  My recent work has focused on statistical modelling of earthquakes, combining point process models with techniques from extreme value theory."
+description: "I am statistician and teaching fellow at Imperial College London, where I develop, apply and teach a variety of statistical methods and models. I am particularly interested in problems that involve environmental or industrial processes. 
+  My recent work has combined point process models with techniques from extreme value theory to model induced earthquake activity."
 image_left: false
 images:
 - img/IMG_20170920_152300.png
