@@ -30,14 +30,14 @@ enableEmoji = true
 [params]
   orgName = "Zak Varty"
   orgLocal = ""
-  description = "Zak Varty Personal Website."
+  description = "Personal website and blog of Dr Zak Varty."
   favicon = "/img/icon-32.png"
   logo = ""
   mainSections = ["blog", "project", "talk"]
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
-  socialInHeader = true
+  socialInHeader = false
   socialInFooter = true
   # Default image for social sharing and search engines.
   # Place image file in `static` folder and specify image name here.
@@ -89,6 +89,10 @@ enableEmoji = true
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://github.com/zakvarty"
+  [[params.social]]
+      icon      = "google-scholar" # icon name without the 'fa-'
+      icon_pack = "ai"
+      url       = "https://scholar.google.com/citations?user=3H4vg4cAAAAJ&hl=en&oi=ao"
   #[[params.social]]
   #    icon      = "facebook-square" # icon name without the 'fa-'
   #    icon_pack = "fab"
