@@ -31,8 +31,8 @@ enableEmoji = true
   orgName = "Zak Varty"
   orgLocal = ""
   description = "Personal website and blog of Dr Zak Varty."
-  favicon = "/img/icon-32.png"
-  logo = ""
+  favicon = "/img/favicon_io/favicon.ico"
+  #logo = "/img/favicon_io/android-chrome-192x192.png"
   mainSections = ["blog", "project", "talk"]
   navallcaps = true
   # show/hide social icons in site header & footer
