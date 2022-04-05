@@ -1,9 +1,9 @@
 ---
 ## Configure page content in wide column
-title: "TL;DR" # leave blank to exclude
+title: "About Me" # leave blank to exclude
 number_featured: 1 # pulling from mainSections in config.toml
 use_featured: false # if false, use most recent by date
-number_categories: 3 # set to zero to exclude
+number_categories: 5 # set to zero to exclude
 show_intro: true
 intro: |
   I am a statistician, educator and researcher. 

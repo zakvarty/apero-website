@@ -4,6 +4,7 @@ categories:
 - Theme Features
 - R
 - package
+- Research
 date: "2019-07-03"
 draft: false
 excerpt: Building this static site generator theme was the first time I used an Atomic
