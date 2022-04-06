@@ -32,7 +32,7 @@ Human-induced earthquakes are usually smaller in magnitude and fewer in number t
 
 My PhD research developed statistical methodology to make most efficient use of the limited available data and extended existing earthquake models to improve understanding of these induced seismic events. 
 
-You can find a copy of my thesis on [github](https://github.com/zakvarty/varty_thesis_public). 
+You can find a copy of my thesis [here](https://www.research.lancs.ac.uk/portal/services/downloadRegister/337085704/2021VartyPhD.pdf). 
 
 
 ## Outputs
