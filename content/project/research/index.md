@@ -4,121 +4,63 @@ categories:
 - Research
 date: "2022-04-05"
 draft: false
-excerpt: Building this static site generator theme was the first time I used an Atomic
-  (or Functional) CSS system like Tachyons. It’s a design system that provides very
-  small (which means fast) CSS modules that you can use in your HTML.
-layout: single
+excerpt: Learn more about my research interests and past projects.
 subtitle: Research projects past and present.
 tags:
 - research
 title: Research
 ---
 
-![Tachyons Logo Script](tachyons-logo-script.png)
+<img src="featured.png" width="30%">
 
-## [Tachyons](http://tachyons.io) is a design system that allows you to design gorgeous interfaces in the browser with little effort.
+## Research Interests 
 
----
+I am interested using statistical reasoning to better understand, explain and predict complex processes. I am particularly interested by problems relating to the environmental sciences or industrial applications. 
 
-### Because Speed
+I develop models and inference procedures by drawing on a broad range of techniques from statistics and data science. Much of my work has centred around the use of stochastic point process models, Bayesian inference and extreme value theory.
 
-Building this static site generator theme was the first time I used an Atomic
-(or Functional) CSS system like Tachyons. It's a design system that provides
-very small (which means fast) CSS modules that you can use in your HTML. So,
-rather than writing every line of CSS, you apply the style you need as you write
-your HTML with easy to understand shorthand class names. This makes for a very
-powerful way to style, in the browser, or while building a static site like this
-one – since you can see every change with every save. **It's a joy to use.**
+## Statistical Consulting 
 
-In using this theme for your next static website project, you won't need to know
-anything about Tachyons ... so, don't freak out. Even though I used it to style
-the theme, you won't need to change a thing. BUT, if you do want to play around
-with it, you can make massive changes very easily. Just familiarize yourself
-with the [clear documentation on the design system](http://tachyons.io/docs/).
-Once you dive in, you'll recognize all the classes I'm using in the markup.
+In addition to academic research I have experience working as a consultant statistician on a variety of industrial problems including inspection planning, predictive analytics and process optimisation.  
 
-### BYOTachyons
+## PhD research
+My research focused on developing statistical models to describe and understand earthquakes that are caused by gas extraction in the Netherlands. 
 
-One of the best features of Tachyons is the exhaustive [component
-library](https://www.tachyonstemplates.com/components/?selectedKind=AboutPages&selectedStory=AboutUs&full=0&down=0&left=1&panelRight=0)
-contributed by the community. All those components are built to work with the
-Tachyons classes, so they will work in this theme too! You can copy/paste
-components in order to quickly block out a page, then fill in your content.
+<center><img src="Groningen_window_europeII-1.png" width="30%"></center>
 
-### Taste the Rainbow
+Human-induced earthquakes are usually smaller in magnitude and fewer in number than their tectonic counterparts. This low-data setting is a challenge to statistical modelling and necessitates the inclusion of domain-expert knowledge. If this low-data setting was not challenging enough, changes in gas extraction and earthquake detection lead to further complications and inefficiencies if standard modelling approaches are used.
 
-We've leveraged the [accessible color
-combinations](http://tachyons.io/docs/themes/skins/) included with Tachyons to
-offer an easy way for you to setup your site using your favorite colors. In the
-site configuration file (`config.toml`), there is a full set of color parameters
-giving you control over the theme color scheme. For an option like `siteBgColor`
-for example, you can just type one of the predefined color names from Tachyons
-and save the file. You can totally customize the theme colors within minutes of
-installing the theme.
+My PhD research developed statistical methodology to make most efficient use of the limited available data and extended existing earthquake models to improve understanding of these induced seismic events. 
 
-```toml
-# basic color options: use only color names as shown in the
-# "Color Palette" section of http://tachyons.io/docs/themes/skins/
-siteBgColor = "near-white"
-sidebarBgColor = "light-gray"
-headingColor = "black"
-textColor = "dark-gray"
-sidebarTextColor = "mid-gray"
-bodyLinkColor = "blue"
-navLinkColor = "near-black"
-sidebarLinkColor = "near-black"
-footerTextColor = "silver"
-buttonTextColor = "near-white"
-buttonBgColor = "black"
-buttonHoverTextColor = "white"
-buttonHoverBgColor = "blue"
-borderColor = "moon-gray"
-```
+You can find a copy of my thesis on [github](https://github.com/zakvarty/varty_thesis_public). 
 
-### Dig Deeper
 
-Let's say you have a style guide to follow and `washed-blue` just won't cut the
-mustard. We built Blogophonic for you, too. There is a bypass of these
-predefined colors built in, you just need to dig a little deeper. In the theme
-assets, locate and open the main SCSS file (`/assets/main.scss`). After the
-crazy looking variables you probably don't recognize and directly following the
-Tachyons import (`@import 'tachyons';`) you'll see a comment that looks just
-like this:
+## Outputs
 
-```scss
-// uncomment the import below to activate custom-colors
-// add your own colors at the top of the imported file
-// @import 'custom-colors';
-```
+### Publications 
+*Varty, Z.*, Tawn J.A., Atkinson P.M. and Bierman S. (2021). Inference for extreme earthquake mangitudes accounting for a time-varying measurement process. (preprint on [arXiv](https://arxiv.org/abs/2102.00884))
 
-Once you uncomment the `custom-colors` import, it will look like this:
 
-```scss
-// uncomment the import below to activate custom-colors
-// add your own colors at the top of the imported file
-@import "custom-colors";
-```
+### Conference and workshop contributions
 
-Save that change, and now the color options in the `config.toml` are no longer
-active – they've been bypassed. To customize the colors, locate and open the
-`custom-colors` file found in the theme assets (`/assets/custom-colors.scss`).
-At the top of that file, you'll find a whole new set of variables for all the
-same color options, but this time you get to assign your own HEX codes.
+| Date      | Event | Location |
+|-----------|:-----------------|------------------:|
+| Jan 2021  | CRG Extremes workshop | Remote. |
+| May 2020 | STOR-i time-series and spatial statistics workshop | Remote. | 
+| Sept 2019 | Interfaces in extreme value theory workshop| Lancaster, UK. |
+| Sept 2019 | Royal Statistical Society conference | Belfast, UK. |
+| Aug  2019 | International statistical seismology workshop (StatSei11) | Hakone, JPN.|
+| Jul 2019 | GRASPA (Italian Environmetrics Society)| Pescara, IT. |
+| Jan 2019 | STOR-i annual conference | Lancaster, UK. |
+| Jan 2018 | STOR-i annual conference | Lancaster, UK. |
 
-```scss
-// set your custom colors here
-$siteBgColorCustom: #e3e3da;
-$sidebarBgColorCustom: #dbdbd2;
-$textColorCustom: #666260;
-$sidebarTextColorCustom: #666260;
-$headingColorCustom: #103742;
-$bodyLinkColorCustom: #c4001a;
-$navLinkColorCustom: #c4001a;
-$sidebarLinkColorCustom: #c4001a;
-$footerTextColorCustom: #918f8d;
-$buttonTextColorCustom: #f7f7f4;
-$buttonHoverTextColorCustom: #f9f9f8;
-$buttonBgColorCustom: #103742;
-$buttonHoverBgColorCustom: #c4001a;
-$borderColorCustom: #c4beb9;
-```
+
+## Past projects
+
+_A review of simulated annealing techniques:_ Simulated annealing is a metahuristic technique mainly used for combinatorial optimisation. Applications, parallelisation and extensions of the technique were reviewed.
+
+_Inference on censored networks:_ Networks are censored when existing nodes or edges are not observed. Methods for inference under different types of missingness were explored. Master's project supervised by Dr. Christopher Nemeth.
+
+_Computionally intensive methods for modelling houshold epidemics:_
+Approximate Bayesian Computation was utilised to allow inference on disease models with intractable likelihoods. Master's dissertation supervised by Prof. Peter Neal.
+
