@@ -6,7 +6,7 @@ description: "I am statistician and teaching fellow at Imperial College London, 
   My recent work has combined point process models with techniques from extreme value theory to model induced earthquake activity."
 image_left: false
 images:
-- img/IMG_20170920_152300.png
+- img/00_avatars/IMG_20170920_152300.png
 show_action_link: true
 show_social_links: true
 subtitle: Statistician & Teaching Fellow
